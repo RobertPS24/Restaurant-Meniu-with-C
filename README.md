@@ -1,36 +1,33 @@
-#Menu Options
-The menu consists of the following items:
+# DuckyRestaurant Project
 
-Soup - 5$
-Burger - 8$
-Pizza - 12$
-Salad - 4$
-Water - 2$
-Beer - 4$
-Coffee - 5$
-Example Usage
-The program welcomes you to the DuckyRestaurant and displays the menu.
-You are prompted to enter the number corresponding to the item you want to add to your cart.
-After selecting an item, you are asked if you want to add more items to your cart.
-You can continue adding items until you choose not to.
-The program then displays the contents of your cart and the total cost.
-Finally, it shows your remaining balance after the purchase.
-Code Explanation
-Here is a brief explanation of the code:
+## Description
+This project simulates a simple restaurant ordering system where you can choose from a menu of items, add them to your cart, and calculate the total cost.
 
-myPocket(int balance): A function that prints the remaining balance.
-main(): The main function where the program execution starts.
-Displays the restaurant welcome message and menu.
-Initializes the options and prices arrays.
-Uses a loop to let the user choose items and add them to the cart.
-Calculates the total cost of the items in the cart.
-Displays the cart contents and total cost.
-Updates and displays the remaining balance.
-Note
-This project uses scanf_s for input, which is specific to Microsoft Visual Studio. If you are using a different compiler, you might need to replace scanf_s with scanf.
-The initial balance is set to 300$.
-Future Improvements
-Add input validation for non-integer inputs.
-Allow the user to remove items from the cart.
-Save and load the cart from a file.
-Implement a more user-friendly interface.
+## Features
+- Displays a menu with various food and drink options.
+- Allows the user to add multiple items to their cart.
+- Calculates the total cost based on the items selected.
+- Updates and displays the remaining balance after the purchase.
+
+## How to Use
+1. **Menu Options**:
+   - The menu includes:
+     - Soup - $5
+     - Burger - $8
+     - Pizza - $12
+     - Salad - $4
+     - Water - $2
+     - Beer - $4
+     - Coffee - $5
+
+2. **Adding Items to Cart**:
+   - Enter the number corresponding to your chosen item.
+   - Continue adding items until you're done.
+
+3. **Finalizing the Order**:
+   - Once you're done, enter 'n' when asked if you want to add more items.
+   - The program will display your order summary and total cost.
+
+4. **Balance**:
+   - Your starting balance is $300.
+   - After your order, the program will display your updated balance.
